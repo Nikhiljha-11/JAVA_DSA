@@ -13,6 +13,7 @@ public class Seive {
             if (!primes[i]) {
                 for (int j = i*2; j <= n; j+=i) {
                     primes[j] = true;
+                    
                 }
             }
         }
@@ -24,3 +25,4 @@ public class Seive {
         }
     }
 }
+
