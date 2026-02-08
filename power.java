@@ -6,6 +6,7 @@ public class power {
          while(power>0){
             if((power&1) == 1){
                 ans =ans*base;
+                
 
             }
             base = base*base;
@@ -14,3 +15,4 @@ public class power {
          System.out.println(ans);
     }
 }
+
