@@ -9,6 +9,7 @@ public class prime {
     }
 
     static boolean isPrime(int n) {
+        
         if (n <= 1) {
             return false;
         }
@@ -22,4 +23,5 @@ public class prime {
         }
         return true;
     }
+
 }
