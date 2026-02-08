@@ -30,6 +30,7 @@ public class Factors {
     }
 
     // both time and space with be O(sqrt(n))
+    //BOTH TIME
     static void factors3(int n) {
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 1; i <= Math.sqrt(n); i++) {
@@ -48,3 +49,4 @@ public class Factors {
     }
 
 }
+
