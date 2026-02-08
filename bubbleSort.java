@@ -22,7 +22,8 @@ public class bubbleSort {
     //             break;
     //         }
     //     }
-        
+
+    
     // }
     static void insertion(int [] arr){
             for(int i = 0; i<arr.length;i++){
@@ -32,3 +33,4 @@ public class bubbleSort {
     }
     
 }
+
