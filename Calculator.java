@@ -9,7 +9,7 @@ public class Calculator {
         System.out.println("Enter first number:");
         num1 = sc.nextDouble();
 
-        System.out.println("Enter operator (+, -, *, /)");
+        System.out.println("Enter operator (+, -, *, /):");
         operator = sc.next().charAt(0);
 
         System.out.println("Enter second number:");
@@ -45,4 +45,3 @@ public class Calculator {
         sc.close();
     }
 }
-
