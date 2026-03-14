@@ -26,7 +26,7 @@ public class Main {
             integers[i] = rnd.nextInt(ARRAY_SIZE);
         }
 
-        // initialize an array of Melons
+        
         Melon[] melons = new Melon[ARRAY_SIZE];
         for (int i = 0; i < ARRAY_SIZE; i++) {
             melons[i] = new Melon(MELON_TYPES[rnd.nextInt(5)], 2000 + rnd.nextInt(2000000));
