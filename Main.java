@@ -7,7 +7,6 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-
     private static final int ARRAY_SIZE = 10_000;
     private static final String[] MELON_TYPES
             = {"Watermelon", "Cantaloupe", "Horned", "Crenshaw", "Honeydew",
