@@ -5,7 +5,7 @@ public class Seive {
         int n = 40;
         boolean[] primes = new boolean[n+1];
         sieve(n, primes);
-        
+
     }
     // false in array means number is prime
     static void sieve(int n, boolean[] primes) {
