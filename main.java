@@ -11,5 +11,4 @@ public class main {
         System.out.println("The result is: "+ sum +"  now the multiplication is "+a*b);
         scanner.close();
     }
-
 }
