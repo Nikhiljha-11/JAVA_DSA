@@ -6,7 +6,6 @@ public class Factors {
     public static void main(String[] args) {
         factors3(20);
     }
-
     // O(n)
     static void factors1(int n) {
         for (int i = 1; i <= n; i++) {
