@@ -14,7 +14,6 @@ public class Factors {
             }
         }
     }
-
     // O(sqrt(n))
     static void factors2(int n) {
         for (int i = 1; i <= Math.sqrt(n); i++) {
