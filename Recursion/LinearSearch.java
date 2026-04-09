@@ -6,7 +6,6 @@ public class LinearSearch{
         System.out.println(ls(nums, 6, 0));
 
     }
-
     //  public static boolean ls(int [] nums , int target , int index){
     //         if(index==nums.length) {
     //             return false;
