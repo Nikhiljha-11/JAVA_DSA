@@ -91,7 +91,6 @@ public class Main {
             System.out.println();
         }
     }
-
     static void pattern3(int n) {
         for (int row = 1; row <= n; row++) {
             // for every row, run the col
