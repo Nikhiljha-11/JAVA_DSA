@@ -4,7 +4,7 @@ public class LinearSearch{
         Scanner sc = new Scanner(System.in);
         int [] nums = {3,5,2,5,6};
         System.out.println(ls(nums, 6, 0));
-        
+
     }
 
     //  public static boolean ls(int [] nums , int target , int index){
